@@ -7,12 +7,24 @@
 </head>
 <body>
     <h1>Form</h1>
-    <form action="">
+    <form action="https://www.yelp.com/">
         <!--commont input types: input-->
-            <input type="text" placeholder="username">
-            <input type="password" placeholder="password">
-            <input type="color">
-            <input type="number">
+            <p>
+                <label for="username">Enter username:</label>
+                <input id="username" type="text" placeholder="username">
+            </p>
+            <p>
+                <label for="password">Enter Password:</label>
+                <input id="password" type="password" placeholder="password">
+            </p>
+            <p><input type="color"></p>
+            <p><input type="number"></p>
+            <p>
+                <label for="tacos">Do you like tacos?</label>
+                <input type="checkbox" name="tacos" id="tacos">
+            </p>
+            <button>Submit</button>
+            <input type="submit" value="Submit">
             
     </form> <!--"form element: represents a document section
          containing interactive controls for submitting information. action attribute specifies WHERE form data should be sent. method attribute
