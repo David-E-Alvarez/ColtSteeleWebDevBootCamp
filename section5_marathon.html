@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon</title>
+    <script>
+        
+    </script>
+</head>
+<body>
+    <h1>Race Registration!</h1>
+
+    <div>
+        <form action="">
+            <div>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="firstname" required>
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="lastname" required>
+            </div>
+            <!------------------------->
+            <p>Select a Race:</p>
+            <div>
+                <input type="radio" id="race_type1" name="race" value="fun_run">
+                <label for="race_type1">Fun Run 5k</label>
+                <br>
+                <input type="radio" id="race_type2" name="race" value="half_marathon">
+                <label for="race_type2">Half Marathon</label>
+                <br>
+                <input type="radio" id="race_type3" name="race" value="marathon">
+                <label for="race_type3">Marathon</label>
+            </div>
+            <!--------------------------->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <!--------------------------->
+            <label for="select_group">Select Age Group:</label>
+            <select name="age" id="ages">
+                <option value="blank"></option>
+                <option value="under_18">Under 18</option>
+                <option value="18-25">18-25</option>
+                <option value="25+">25+</option>
+            </select>
+            <br>
+            <!---------------------------->
+            <button type="submit">Register!</button>
+        </form>
+    </div>
+</body>
+</html>
