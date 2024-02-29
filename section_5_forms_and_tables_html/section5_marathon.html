@@ -12,7 +12,7 @@
     <h1>Race Registration!</h1>
 
     <div>
-        <form action="">
+        <form action=""><!--action attribute processes form submission -->
             <div>
                 <label for="first_name">First Name</label>
                 <input type="text" id="first_name" name="firstname" required>
@@ -20,7 +20,7 @@
                 <input type="text" id="last_name" name="lastname" required>
             </div>
             <!------------------------->
-            <p>Select a Race:</p>
+            <p>Select a Race:</p>  
             <div>
                 <input type="radio" id="race_type1" name="race" value="fun_run">
                 <label for="race_type1">Fun Run 5k</label>
@@ -40,7 +40,7 @@
             </div>
             <!--------------------------->
             <label for="select_group">Select Age Group:</label>
-            <select name="age" id="ages">
+            <select name="age" id="select_group">
                 <option value="blank"></option>
                 <option value="under_18">Under 18</option>
                 <option value="18-25">18-25</option>
@@ -50,6 +50,8 @@
             <!---------------------------->
             <button type="submit">Register!</button>
         </form>
+        
+
     </div>
 </body>
 </html>
