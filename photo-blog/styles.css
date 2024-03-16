@@ -1,0 +1,21 @@
+body{
+    border: 5px solid red;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;   
+}
+
+nav{
+    font-size: 1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin: 1.666%;
+    padding: 1em 0;
+
+}
+
+img{
+    /* border: 5px solid purple; */
+    width: 30%;
+    margin: 1.666%;
+}
