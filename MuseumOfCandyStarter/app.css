@@ -25,14 +25,24 @@ body{
     color: red;
 }
 
+
+
 .row{
     border: 5px solid orange;
-    /* display: flex; */
+    display: flex;
     /* Vertically center content */
     align-items: center;
 }
 
-.col{
+.col-lg-6{
     border: 4px solid yellow;
     text-align: center;
+}
+
+/* MEDIA QUERIES*/
+@media(max-width:960px){
+    #disappearing-div{
+        /* border: 4px solid purple; */
+        display: none;
+    }
 }
